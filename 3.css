@@ -1,0 +1,29 @@
+ul.menungang{
+    list-style: none;
+    width: 900px;
+    margin:auto;
+    
+   
+}
+ul.menungang li{
+    display: inline;
+}
+
+.menutren{
+    background-color: #a70e1a;
+    height: 40px;
+}
+ul.menungang li a{
+    color:#fff;
+    text-decoration: none;
+    font-family:sans-serif;
+    font-size: 15px;
+    padding: 11px;
+    transition: 0.2s;
+    display: inline-block;
+    border: 1px solid red;
+}
+ul.menungang li a:hover{
+   background-color:#660810;
+}
+

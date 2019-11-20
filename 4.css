@@ -1,0 +1,51 @@
+.cottrai{
+    width: 600px;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+img{
+    width: 100%;
+}
+a.anhvatd{
+    text-decoration: none;   
+    font-size: 25px;
+    color: black;
+}
+
+.tren a.anhvatd h3{
+    margin:0;
+    padding-top:10px;
+    padding-bottom: 10px;
+    line-height: 1.5;
+}
+a.nguon, a.lienquan{
+    text-decoration: none;
+    color:gray;
+}
+.tren a:hover{
+    color: rgb(29, 181, 201);
+}
+span.gio{
+    padding: 10px;
+    color: gray;
+}
+
+.duoi
+{
+    margin-top:20px;
+    display: flex;
+    justify-content: space-between;
+}
+.cot1, .cot2,.cot3{
+    width: 32%;
+}
+.duoi a.anhvatd{
+    margin:0;
+    font-size: 16px;
+    color:rgb(180, 180, 180);
+    line-height: 2;
+    width:90%;
+}
+.duoi a:hover{
+    color: rgb(29, 181, 201);
+}

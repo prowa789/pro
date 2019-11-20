@@ -1,0 +1,66 @@
+.khoitren{
+    width: 1241px;
+    height: 543px;
+    display: flex;
+    margin: auto;
+}
+.khoitren .cot1{
+    width: 250px;
+}
+.khoitren .cot1 .danhmuc{
+    display: flex;
+    margin:11px;
+}
+.khoitren .cot1 .trai
+{
+    widows: 40px;
+}
+.khoitren .cot1 .phai
+{
+    width:210px;
+    margin-left: 10px;
+    margin-top: 3px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+}
+/* het cot 1 */
+.khoitren .cot2{
+    width: 588px;
+    height: 543px;
+}
+.khoitren .cot2 .tren{
+    height: 363px;
+}
+.khoitren .cot2 .duoi{
+    height: 180px;
+    display: flex;
+}
+.khoitren .cot2 .duoi .motnua{
+    width: 50%;
+}
+/* het cot 2 */
+.khoitren .cot3{
+    width: 403px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.khoitren .cot3 .ha
+{
+    width: 50%;
+}
+.khoitren .cot3 .ha img
+{
+    height: 181px;
+}
+
+img{
+    width: 100%;
+}
+/* phan cua slide  */
+.slide{
+    width: 588px;
+}
+.slide .carousel-indicators{
+    visibility: hidden;
+}

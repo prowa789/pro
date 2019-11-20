@@ -1,0 +1,66 @@
+.product{
+    width: 360px;
+    height: 360px;
+    font-size: 15px;
+    font-family: sans-serif;
+    position: relative;
+    perspective: 500px;
+}
+.product .anh{
+    width: 100%;
+}
+.product .bg{
+    background-color:rgba(255, 255, 255, 0.9);
+    width: 332px;
+    height: 332px;
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    opacity: 0;
+    transition: 0.4s;
+    transform-origin: 0 0;
+}
+.product .text1{
+    position: absolute;
+    bottom:50px;
+    left: 60px;
+    font-weight: 500;
+    font-size: 20px;
+    opacity: 0;
+    transition: 0.4s;
+}
+.product .black{
+    width: 52px;
+    height: 52px;
+    background-color: black;
+    position: absolute;
+    border-radius: 50%;
+    top:50px;
+    left: 60px;
+    opacity: 0;
+}
+.black .far{
+    position: absolute;
+    top:16px;
+    left: 16px;
+    font-size: 20px;
+    color: white;
+}
+.product .text2{
+    position: absolute;
+    bottom:50px;
+    left: 60px;
+    opacity: 0; 
+    transition: 0.3s;
+    color: gray;
+}
+.product:hover .text1{
+    bottom:70px;
+    left: 60px;
+    opacity: 1;
+    transition-delay: 0.2s;
+}
+.product:hover .text2{opacity: 1; transition-delay: 0.5s;}
+.product:hover .black{opacity: 1;}
+.product:hover .bg{transform: rotateY(10deg); opacity: 1; left:-30px;
+}

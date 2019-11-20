@@ -1,0 +1,10 @@
+.slidecuatui{
+    width: 500px;
+    height: 300px;
+}
+.slidecuatui img{
+    width: 500px;
+}
+.slidecuatui .carousel-indicators{
+    visibility: hidden;
+}

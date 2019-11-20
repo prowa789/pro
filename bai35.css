@@ -1,0 +1,65 @@
+.container{
+    width: 1143px;
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+    flex-wrap: wrap;
+}
+.product{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(97, 97, 97);
+    font-weight: 500;
+    width: 360px;
+    height: 520px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.product .layer1{
+    width: 100%;
+    transition: 0.6s;
+}
+.product .layer2{
+    height: 448px;
+    position: absolute;
+    top: 0; left: 0;
+    opacity: 0;
+    transition: 0.6s;
+}
+.product:hover .layer2{
+    opacity: 1;
+}
+.product .name-price{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+.product .name-price .name{
+    width: 50%;
+}
+.product .name-price .name  a{
+    text-decoration: none;
+    color: rgb(97, 97, 97);
+}
+.product .name-price .price{
+    width: 50%;
+    text-align: right;
+}
+.product .layer3{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    opacity: 1;    /*mac dinh =1*/
+    transition: 0.6s;
+}
+.product:hover .layer3{opacity: 0;}
+.product .layer4{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0;
+    transition: 0.6s;
+}
+.product:hover .layer4{opacity: 1;}

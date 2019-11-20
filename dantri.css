@@ -1,0 +1,30 @@
+
+.BG{
+    height: 27px;
+    background-image: url(https://cdnweb.dantri.com.vn/images/menu-bg2.png)
+}
+ul.menungang{
+    width: 90%;
+    list-style: none;
+    margin:auto;
+    text-align: center;
+}
+ul.menungang li{
+    display: inline;
+}
+
+ul.menungang li a.dm{
+    font-family: Arial;
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+    position: relative;
+    bottom: 5px;
+    margin-left: -5px;
+    border-left: 0.5px rgb(0, 0, 255) solid;
+}
+ul.menungang li a.dm:hover{
+    background-color: rgba(230, 230, 230, 0.281);
+}

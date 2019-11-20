@@ -1,0 +1,26 @@
+.khoitren{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border: 1px red solid;
+}
+.khoitren h3{
+    margin-left: 20px;
+}
+.khoito{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    margin:auto;
+}
+.khoito a.khoinho{
+    width:72px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: rgb(0, 162, 255);
+}
+.khoito a.khoinho .hinhanh{
+    width: 100%;
+}
