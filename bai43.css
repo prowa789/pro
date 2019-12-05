@@ -1,0 +1,63 @@
+.container{
+    width:1000px;
+    margin:auto;   
+}
+.khoito{
+    position: relative;
+    top:-4px;
+}
+.container img{
+    width: 100%;
+}
+.bg{ 
+    background-color: rgb(57, 169, 243);
+    height: 50px;
+}
+*{
+    margin:0;padding: 0;
+}
+.menutren{
+    background-color: rgb(176, 224, 238);
+    height: 50px;
+    font-size: 22px;
+}
+.menutren >ul{display: flex;position: relative;list-style: none;}
+.menutren >ul >li{}
+.submenu1{   
+    height: 100px;
+    line-height: 50px;
+}
+.submenu1 a.layer1{
+    color:black;
+    display: block;
+    padding-left:20px;padding-right: 20px;
+}
+.submenu1:hover a.layer1{
+    background-color: rgb(31, 238, 203);
+    color:white;   
+}
+.submenu1 .layer2{
+    position: absolute;
+    top:50px;
+    left:0px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.2s;
+}
+.submenu1:hover .layer2{
+    visibility: visible;
+    opacity: 1;
+}
+.submenu1 .layer2 ul {list-style: none;display: flex;}
+.submenu1 .layer2 ul li {display: flex;}
+.submenu1 .layer2 ul a{
+    font-size:15px;    
+    padding-right: 10px;
+    padding-left: 10px;
+    display: inline-block;
+}
+.submenu1 .layer2 ul li:hover a{
+    color:white;
+}
+
+a{text-decoration: none;}

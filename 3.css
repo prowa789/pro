@@ -1,29 +1,77 @@
+.menutren{
+    background-color: #a70e1a;
+    height: 40px;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 ul.menungang{
     list-style: none;
     width: 900px;
     margin:auto;
-    
-   
+    display: flex;
+    position: relative; 
 }
-ul.menungang li{
-    display: inline;
-}
+ul.menungang >li{}
 
-.menutren{
-    background-color: #a70e1a;
-    height: 40px;
-}
-ul.menungang li a{
+ul.menungang >li >a{
     color:#fff;
     text-decoration: none;
     font-family:sans-serif;
     font-size: 15px;
     padding: 11px;
     transition: 0.2s;
-    display: inline-block;
-    border: 1px solid red;
+    display: block;
 }
-ul.menungang li a:hover{
+ul.menungang >li >a:hover{
    background-color:#660810;
+}
+.menungang ul.submenu{
+    position: absolute;
+    top:40px;
+    left:0;
+    list-style: none;
+    visibility: hidden;
+}
+.menungang >li:hover ul.submenu{
+    visibility: visible;
+}
+.menungang .submenu >li{}
+.menungang .submenu >li >a{
+    display: block;
+    width: 200px;
+    height: 40px;
+    background-color: aqua;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.menungang .submenu >li:hover >a{
+    background-color:rgb(255, 255, 255);
+    color: black;
+}
+.submenu2{
+    position: absolute;
+    top:0px;
+    left:200px;
+    list-style: none;
+    visibility: hidden;
+}
+.submenu li:hover .submenu2{
+    visibility: visible;
+}
+.submenu2 li a{
+    display: block;
+    width: 100px;
+    height: 40px;
+    background-color: aqua;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.submenu2 li:hover a{
+    background-color:white;
+    color: black;
 }
 

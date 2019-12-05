@@ -1,0 +1,79 @@
+.content{
+    width: 900px;
+    height: 333px;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+    overflow: hidden;
+    background-color:#3bc7f5;
+}
+.content .anh{
+    position: absolute;
+    top:0;left: 0;
+    width: 100%;
+    transition: 0.4s;
+}
+.content:hover .anh{
+    position: absolute;
+    left: 30px;
+}
+.content .bg{
+    background-color:#3bc7f577;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;left:0;
+    opacity: 0;
+    transition: 0.4s;
+}
+.content:hover .bg{
+    opacity: 1;
+}
+.content .product-name{
+    position: absolute;
+    top:50px;
+    left: 50px;
+    font-size: 30px;
+    font-weight: 500;
+    transition: 0.4s;
+}
+.content:hover .product-name{
+    opacity: 0;
+}
+.content .duoi{
+    height: 20px;
+    background-color: #3bc7f5;
+    font-size: 15px;
+    font-weight: bold;
+    overflow: hidden;
+    position: absolute;
+    top:50%; left:45%;
+   
+}
+.content .duoi .text{
+    position: relative;
+    top:50px;
+    transition: 0.7s;
+}
+.content:hover .duoi .text{
+    top:0px;
+}
+
+.content .tren{
+    height: 30px;
+    background-color: #3bc7f5;
+    font-size: 30px;
+    font-weight: 500;
+    overflow: hidden;
+    position: absolute;
+    top:40%; left:41%;
+}
+.content .tren .text{
+    position: relative;
+    top:50px;
+    transition: 0.7s;
+}
+.content:hover .tren .text{
+    top:0;
+}

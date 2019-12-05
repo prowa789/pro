@@ -1,0 +1,342 @@
+/* Phần Header */
+*{margin: 0;padding: 0;}
+body{font-size: 13px;font-family: 'Segoe UI';}
+.header{
+    position: relative;
+    height: 47px;
+    background: url(images/Header_01.jpg) top center;
+    background-size: cover;
+}
+.header img.icon{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 81%;
+    top:10%;
+    font-weight: bold;
+    border-radius: 50%;
+}
+.header span{
+    position: absolute;
+    left: 84%;top:30%;
+    color:white;
+    font-weight: bold;
+}
+.header .fas{font-size:18px;color: white;}
+.header .fa-bell{ position: absolute;left: 92%;top:30%;}
+.fa-bell .small_icon{
+    position: absolute;
+    background-color: red;
+    top:-8px;
+    left:10px;
+    font-size: 10px;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+}
+.fa-envelope .small_icon{
+    position: absolute;
+    background-color:blue;
+    top:-8px;
+    left:13px;
+    font-size: 10px;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+}
+.header .fa-cog{position: absolute;left: 98%;top:30%;}
+.header .fa-envelope{position: absolute;left: 95%;top:30%;}
+/* Phần Menu */
+.menu{
+    font-size: 15px;
+    position: relative;
+    top:-4px;
+    height: 58px;
+}
+.menu ul{list-style: none;display: flex;margin-left:100px;}
+.menu ul li a{
+    display: block;
+    padding-left: 20px;
+    text-decoration: none;
+    color: black;
+    line-height: 60px;
+    margin-left: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+}
+.menu ul li a .anh{
+    position: absolute;
+    left: -25px;
+    top:12px;
+}
+.menu ul li a:hover{color: green;}
+/* Phần thân */
+.content{
+    background-color: #19335b;
+    height: 2200px;
+}
+.content .to{display: flex;color: white;}
+.content .to .home{
+    width: 50%;
+    margin-left: 30px;
+    margin-top:15px;
+}
+.content .to .date{
+    text-align: right;
+    width: 50%;
+    margin-right:40px;
+    margin-top:15px;
+}
+.content .bg{
+    margin-top: 30px;
+    margin-left: 10px;
+    height: 1900px;
+    width: 98%;
+    background-color: #ffffff;
+    border-radius: 10px;   
+}
+.cotto{
+    width: 95%;   
+    margin:auto;
+    display: flex;
+    padding-top: 50px;
+    justify-content:space-between;
+}
+.content .cotto >.cot1{
+    width: 69%;
+}
+/* phần table */
+.bg .cot1 .bang1{
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    height: 291px;
+}
+.bg .cot1 .bang1 tr{
+    height: 50px;
+}
+.abc{display: flex;height: 50px;line-height: 50px;}
+.abc .chu{width: 90%;text-align: left;padding-left: 10px;}
+.abc .hinh{width: 10%;}
+.abc .hinh img{width: 32px;height: 32px;padding-top: 8px;}
+
+.bg .cot1 .bang1 td{
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+.bg .cot1 .bang1 .row1{
+    background-color:#149392;
+    color:white;
+    font-weight: bold;
+}
+.bg .cot1 .bang1 .row2,.row3{
+    background-color: #f4f4f4;
+}
+
+.bg .cot1 .bang1 tr.row3{
+    background-color: #e8e8e8;
+}
+.bg .cot1 .bang1 .circle{
+    background-color: #f01845;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: auto;
+    line-height: 40px;
+    margin-top: 5px;
+}
+/* cadsdsdasds */
+.content .cotto .cot2{
+    width: 29%;
+}
+.content .cotto .cot2-hs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 353px;
+    
+}
+.content .cotto .cot2-hs .cot2-1{
+    width: 100%;
+    background-color: #eeeeee;
+    height: 150px;
+    display: flex;
+    
+}
+.content .cotto .cot2-hs .cot2-1 .sovaphantram{
+    width: 80px;
+    margin-top: 40px;
+    padding-left: 15px;
+}
+.content .cotto .cot2-hs .cot2-1 .so{
+   color:  #149392;
+   font-size: 35px;
+   font-weight: bold;
+}
+.content .cotto .cot2-hs .cot2-1 .phantram{
+   color:  #4b4b4b;
+   font-size: 30px;
+   position: relative;
+   top:-13px;
+   left:-5px;
+}
+.content .cotto .cot2-hs .fa-angry{
+    font-size: 20px;
+    padding-bottom: 8px;
+}
+.content .cotto .cot2-hs .chu{
+    font-size: 15px;
+}
+.content .cotto .cot2-hs .cot2-1 .chu{
+    margin-top: 40px;
+}
+.content .cotto .cot2-hs .cot2-1 .chu1{
+    font-size: 20px;  
+}
+.content .cotto .cot2-hs .cot2-1 .chu2{
+    font-size: 25px;
+}
+
+.content .cotto .cot2-hs.cot2-1 .anh{
+    width: 148px;
+}
+.content .cotto .cot2-hs .cot2-1 .anh img{
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border:8px #149392 solid;   
+    border-radius: 50%;
+}
+
+
+.content .cotto .cot2-hs .motnua{
+    width: 47%;
+    height: 84px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.content .cotto .cot2-hs .cot2-2{background-color: #ec5a27;}
+.content .cotto .cot2-hs .cot2-3{background-color: #1caa51;}
+.content .cotto .cot2-hs .cot2-4{background-color: #fa5295;}
+.content .cotto .cot2-hs .cot2-5{background-color: #d3b50e;}
+/* asdadasdasd */
+.bg .cotto .cot1 .cot1-1{
+    display: flex;
+    margin-top:40px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+.bg .cotto .cot1 .cot1-1 .cot1{
+    width: 50%;
+    background-color: #eceaea;
+    
+}
+.bg .cotto .cot1 .cot1-1 .cot2{
+    width: 30%;
+    background-color: #35b038;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+}
+.bg .cotto .cot1 .cot1-1 .chu{
+    width: 80%;
+    padding-left: 5px;
+    color: white;
+}
+.bg .cotto .cot1 .cot1-1 .anh{
+    width: 17%;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    color: white;
+}
+.bg .cotto .cot1 .cot1-1 .cot3{
+    width: 20%;
+    justify-content: space-between;
+    background-color: #d7d7d7;
+    display: flex;
+}
+
+.bang2{
+    font-size: 13px;
+    box-sizing: border-box;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 1px;
+    margin-bottom: 20px;
+    /* border-collapse: collapse; bỏ khoảng trắng bảng */
+}
+.bang2 .row1{
+    background-color: #d2d2d2;
+}
+.bang2 .cot2sau{width: 15%;color: 6191b1;text-align: center;}
+.bang2 .col2{
+    width: 55%;
+    text-align: left;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.bang2 tr{
+    height: 46px;
+}
+.bang2 .concac{
+    text-align: center;
+}
+.bang2 .cotchan{
+    background-color: #e7e7e7;
+}
+.bang2 .col3{padding-left:30px;}
+.bang2 .quahan{color:red}
+.bang2 .conhan{color: blue;}
+.bang2 .fa-file{font-size: 25px;}
+.bang2 .trangthai{
+    color: white;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 10px;
+    margin:auto;
+}
+.bang2 .col5{width: 50px;}
+.bang2 .col1{width: 50px;}
+.bang2 .tt{width: 100px;}
+
+
+.cot2-sukien{border-radius:10px;margin-top: 20px;height: 71px; background-color: #f5f5f5;}
+.cot2-sukien .mot{padding-top: 15px;display: flex;margin-bottom: 5px;}
+.cot2-sukien .anh{width: 10%;font-size: 20px;text-align: center;color: tomato;}
+.cot2-sukien .chu{width: 90%;}
+.cot2-sukien .hai{display: flex;}
+
+
+.cot2 .thongkecv1{height: 295px;background-color: red;margin-top:30px}
+.cot2 .thongkecv2{height: 247px;margin-top:30px;}
+.cot2 .hotrotructuyen{margin-top:30px;height: 509px;background-color: red;}
+
+
+
+/* footer ne */
+.footer{
+    margin-top: 15px;
+    display: flex;
+    color: white;
+}
+.footer .text1{width: 25%;padding-left: 20px;}
+
+.footer .text2{
+    width: 60%;
+    text-align: right;
+}
+.footer .text3{width: 20%;text-align: center;}

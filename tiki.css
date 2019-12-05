@@ -3,6 +3,9 @@
     height: 543px;
     display: flex;
     margin: auto;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
 }
 .khoitren .cot1{
     width: 250px;
@@ -13,16 +16,13 @@
 }
 .khoitren .cot1 .trai
 {
-    widows: 40px;
+    width: 40px;
 }
 .khoitren .cot1 .phai
 {
     width:210px;
     margin-left: 10px;
     margin-top: 3px;
-    font-family: Roboto;
-    font-size: 15px;
-    font-weight: 400;
 }
 /* het cot 1 */
 .khoitren .cot2{
@@ -48,18 +48,16 @@
 .khoitren .cot3 .ha
 {
     width: 50%;
-}
-.khoitren .cot3 .ha img
-{
-    height: 181px;
+    height: 33.33%;
 }
 
 img{
     width: 100%;
+    height: 100%;
 }
 /* phan cua slide  */
 .slide{
-    width: 588px;
+    width: 100%;
 }
 .slide .carousel-indicators{
     visibility: hidden;
